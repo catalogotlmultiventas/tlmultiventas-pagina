@@ -8,11 +8,8 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to bottom, #000, #444); /* Fondo degradado de negro */
-      color: #fff;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
+      background: linear-gradient(180deg, #000000, #333333); /* Fondo negro degradado */
+      color: #fff; /* Texto en blanco para contraste */
     }
     header {
       display: flex;
@@ -35,9 +32,8 @@
     .social-icons {
       display: flex;
       gap: 15px;
-      justify-content: center; /* Centra los iconos */
-      align-items: center;
-      width: 100%; /* Asegura que los iconos estén centrados */
+      justify-content: center; /* Centra los iconos horizontalmente */
+      flex: 1; /* Hace que ocupe el espacio disponible */
     }
     .social-icons a {
       text-decoration: none;
