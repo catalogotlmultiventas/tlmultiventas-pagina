@@ -8,8 +8,11 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #fffaf0;
-      color: #333;
+      background: linear-gradient(to bottom, #000, #444); /* Fondo degradado de negro */
+      color: #fff;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
     }
     header {
       display: flex;
@@ -32,6 +35,9 @@
     .social-icons {
       display: flex;
       gap: 15px;
+      justify-content: center; /* Centra los iconos */
+      align-items: center;
+      width: 100%; /* Asegura que los iconos estén centrados */
     }
     .social-icons a {
       text-decoration: none;
